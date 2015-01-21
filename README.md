@@ -29,7 +29,7 @@ Your boss comes to you and says, "*We just got in a new project. I need you to s
 
 Create a single migration called CreateLocations, using the migrations generator, that will have these columns in place.
 
-Run the migrations with `rake db:migrate db:test:prepare` and then run `rspec spec/models/step1` to see that it has worked. Make a git commit and move onto step 2.
+Run the migrations with `rake db:migrate db:test:prepare` and then run `rspec spec/models/step1_spec.rb` to see that it has worked. Make a git commit and move onto step 2.
 
 ### Step 2
 
@@ -41,7 +41,7 @@ Create a migration called AddCityAndStateToLocations, using the migrations gener
 
 Run the migrations with `rake db:migrate db:test:prepare` to apply the migrations.
 
-Run `rspec spec/models/step2` to see that your steps worked.
+Run `rspec spec/models/step2_spec.rb` to see that your steps worked.
 
 ### Step 3
 
@@ -55,7 +55,7 @@ Create a migration called AddColorToLocations, using the migrations generator, t
 
 Run the migrations with `rake db:migrate db:test:prepare` to apply the migrations.
 
-Run `rspec spec/models/step3` to see that your steps worked.
+Run `rspec spec/models/step3_spec.rb` to see that your steps worked.
 
 ### Step 4
 
@@ -69,7 +69,7 @@ Create a migration called AddFlavorAndRemoveColorFromLocations, using the migrat
 
 Run the migrations with `rake db:migrate db:test:prepare` to apply the migrations.
 
-Run `rspec spec/models/step4` to see that your steps worked.
+Run `rspec spec/models/step4_spec.rb` to see that your steps worked.
 
 ### Step 5
 
@@ -79,7 +79,7 @@ Create a migration called AddPricesToLocations, using the migrations generator. 
 
 Run the migrations with `rake db:migrate db:test:prepare` to apply the migrations.
 
-Run `rspec spec/models/step5` to see that your steps worked.
+Run `rspec spec/models/step5_spec.rb` to see that your steps worked.
 
 ### Step 6
 
@@ -92,4 +92,4 @@ You did your job well, but he just can't make up his mind. Thankfully you've bee
 
 Rollback the last migration. You used to have a note about how to do that somewhere, but it seems to have been lost under a pile of burrito wrappers and coke cans. I'm sure you can figure it out.
 
-Then run `db:test:prepare` to make sure your test database is synced up and then `rspec spec/models/step6` to see that your database is in the proper state.
+Then run `db:test:prepare` to make sure your test database is synced up and then `rspec spec/models/step6.rb` to see that your database is in the proper state.
