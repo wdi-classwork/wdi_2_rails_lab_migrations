@@ -45,7 +45,7 @@ Run `rspec spec/models/step2_spec.rb` to see that your steps worked.
 
 ### Step 3
 
-> "*I just read that places have colors. All our locations should have colors*"
+> "*I just read that places have colors. All our locations should have a color*"
 
 At this point you're pretty sure your boss has lost it, but he signs off on your paycheck so you're going to deal with it.
 
